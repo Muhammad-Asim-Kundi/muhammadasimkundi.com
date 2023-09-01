@@ -273,7 +273,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			{
+			.container{
 				max-width: 100% !important;
 				width: 100% !important;
 			}
@@ -2857,6 +2857,7 @@ input, select, textarea {
 			.main.style2  p {
 				color: #000000;
 				text-align: left;
+				width: screen;
 			
 			}
 
@@ -2902,9 +2903,9 @@ input, select, textarea {
 				.main.style2 input[type="button"].primary,
 				.main.style2 button.primary,
 				.main.style2 .button.primary {
-					background-color: #ffffff;
-					box-shadow: inset 0 0 0 1px #ffffff !important;
-					color: #333 !important;
+					background-color: #f2f1f1;
+					box-shadow: inset 0 0 0 1px #b8b8b8 !important;
+					color: #858585 !important;
 				}
 
 					.main.style2 input[type="submit"].primary:hover,
@@ -2912,8 +2913,11 @@ input, select, textarea {
 					.main.style2 input[type="button"].primary:hover,
 					.main.style2 button.primary:hover,
 					.main.style2 .button.primary:hover {
-						background-color: rgba(255, 255, 255, 0.125) !important;
-						color: #ffffff !important;
+						/* background-color: rgba(255, 255, 255, 0.125) !important; */
+						color: #dfdede !important;
+						background: #4fa49a;
+						
+						
 					}
 
 					.main.style2 input[type="submit"].primary:active,
@@ -2931,7 +2935,6 @@ input, select, textarea {
 			.main.style2 .icon.major {
 				color: #ffffff;
 			}
-
 /* Header */
 
 	#header {
@@ -3296,7 +3299,7 @@ input, select, textarea {
 				padding: 4em 0 2em 0 ;
 			}
 
-				.main.style2 {
+				.main.style {
 					background-attachment: scroll;
 				}
 
