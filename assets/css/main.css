@@ -239,6 +239,12 @@ input, select, textarea {
 		text-align: right;
 	}
 
+/* To be Toggle Section */
+
+.hidden{
+	display: none;
+}
+
 /* Container */
 
 	.container {

@@ -30,3 +30,23 @@
 		$('.scrolly').scrolly();
 
 })(jQuery);
+
+const site = document.querySelector('#site')
+const developer = document.querySelector('#developer')
+
+
+document.querySelector('#INeedSite').addEventListener('click', DisplaySite)
+document.querySelector('#INeedDev').addEventListener('click', DisplayDev)
+
+// making function for andi so called first to toggle the css class="hidden" show only andi
+function DisplaySite(){
+	site.classList.toggle('hidden')
+	developer.classList.add('hidden')
+	
+}
+
+//making function for claire so that on call it toggle the hidden class of css for pic of claire
+function DisplayDev(){
+	site.classList.add('hidden')
+	developer.classList.toggle('hidden')
+}
