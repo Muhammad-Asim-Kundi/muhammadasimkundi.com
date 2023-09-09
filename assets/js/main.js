@@ -25,24 +25,22 @@
 
 })(jQuery);
 
-const site = document.querySelector('#site')
-const developer = document.querySelector('#developer')
+let site = document.querySelector('#site')
+let developer = document.querySelector('#developer')
 
 
 document.querySelector('#INeedSite').addEventListener('click', DisplaySite)
 document.querySelector('#INeedDev').addEventListener('click', DisplayDev)
 
-// making function for andi so called first to toggle the css class="hidden" show only andi
 function DisplaySite(){
-	site.removeClass('.hidden')
-	// document.querySelector('#developer').addClass('hidden')
+	site.style.display = 'block'
+	developer.style.display = 'none'
 
-	
+
 }
 
-//making function for claire so that on call it toggle the hidden class of css for pic of claire
 function DisplayDev(){
-	developer.toggle('hidden')
-	site.add('hidden')
-	
+	developer.style.display = 'block'
+	site.style.display = 'none'
+
 }
