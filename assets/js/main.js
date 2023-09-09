@@ -1,9 +1,3 @@
-/*
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var	$window = $(window),
@@ -40,13 +34,15 @@ document.querySelector('#INeedDev').addEventListener('click', DisplayDev)
 
 // making function for andi so called first to toggle the css class="hidden" show only andi
 function DisplaySite(){
-	site.classList.toggle('hidden')
-	developer.classList.add('hidden')
+	site.removeClass('.hidden')
+	// document.querySelector('#developer').addClass('hidden')
+
 	
 }
 
 //making function for claire so that on call it toggle the hidden class of css for pic of claire
 function DisplayDev(){
-	site.classList.add('hidden')
-	developer.classList.toggle('hidden')
+	developer.toggle('hidden')
+	site.add('hidden')
+	
 }
