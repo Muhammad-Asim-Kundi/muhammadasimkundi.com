@@ -1,3 +1,4 @@
+//js work for my porfolio
 (function($) {
 
 	var	$window = $(window),
@@ -33,6 +34,7 @@ document.querySelector('#INeedSite').addEventListener('click', DisplaySite)
 document.querySelector('#INeedDev').addEventListener('click', DisplayDev)
 
 function DisplaySite(){
+
 	site.style.display = 'block'
 	developer.style.display = 'none'
 
@@ -40,6 +42,7 @@ function DisplaySite(){
 }
 
 function DisplayDev(){
+	
 	developer.style.display = 'block'
 	site.style.display = 'none'
 
