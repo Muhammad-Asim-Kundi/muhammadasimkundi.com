@@ -38,6 +38,8 @@ function DisplaySite(){
 	site.style.display = 'block'
 	developer.style.display = 'none'
 
+	
+
 
 }
 
@@ -45,5 +47,7 @@ function DisplayDev(){
 	
 	developer.style.display = 'block'
 	site.style.display = 'none'
+
+	
 
 }
