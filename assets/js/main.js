@@ -38,7 +38,11 @@ function DisplaySite(){
 	site.style.display = 'block'
 	developer.style.display = 'none'
 
-	
+	$(document).ready(function(){
+		$("html, body").animate({ 
+			scrollTop: $('#site').offset().top 
+		}, 1000);
+	});
 
 
 }
@@ -48,6 +52,10 @@ function DisplayDev(){
 	developer.style.display = 'block'
 	site.style.display = 'none'
 
-	
+	$(document).ready(function(){
+		$("html, body").animate({ 
+			scrollTop: $('#developer').offset().top 
+		}, 1000);
+	});
 
 }
