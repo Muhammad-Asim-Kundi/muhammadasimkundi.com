@@ -2080,7 +2080,7 @@ input, select, textarea {
 
 	input[type="text"],
 	input[type="password"],
-	input[type="email"],
+	input[type="gmail"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2101,7 +2101,7 @@ input, select, textarea {
 
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
-		input[type="email"]:invalid,
+		input[type="gmail"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -2109,7 +2109,7 @@ input, select, textarea {
 
 		input[type="text"]:focus,
 		input[type="password"]:focus,
-		input[type="email"]:focus,
+		input[type="gmail"]:focus,
 		select:focus,
 		textarea:focus {
 			border-color: #6bd4c8;
@@ -2140,7 +2140,7 @@ input, select, textarea {
 
 	input[type="text"],
 	input[type="password"],
-	input[type="email"],
+	input[type="gmail"],
 	select {
 		height: 2.75em;
 	}
