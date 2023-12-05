@@ -2399,7 +2399,7 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 67%;
+				width: 74%;
 				height: 380px;
 			}
 
@@ -3149,6 +3149,7 @@ input, select, textarea {
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
+		/* height: 30px; */
 	}
 
 		#footer a {
